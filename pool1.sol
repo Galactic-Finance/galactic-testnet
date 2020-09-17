@@ -601,7 +601,7 @@ contract LPTokenWrapper {
 }
 
 contract GalacticRewards is LPTokenWrapper, Ownable {
-    IERC20 public GFI_TOKEN = IERC20(0x177BA0cac51bFC7eA24BAd39d81dcEFd59d74fAa); // GalacticFinance token
+    IERC20 public GFI_TOKEN = IERC20(0x4EAc565049DCA21921c2C4585aB0EF2219dBD5B2); // GalacticFinance token
     uint256 public constant DURATION = 7 days;
 
     uint256 public initreward = 4000 * 1e18;
